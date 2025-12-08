@@ -11,7 +11,7 @@
 <a href="https://splats.com">
 <img alt="Splats logo" src="https://img.shields.io/badge/MADE_BY_SPLATS-grey?style=for-the-badge">
 </a>
-<a href=""><img alt="License" src="https://img.shields.io/badge/MIT_LICENSE-black?style=for-the-badge"></a>
+<a href="https://github.com/splatsdotcom/splatkit.org/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/MIT_LICENSE-black?style=for-the-badge"></a>
 <a href="https://github.com/splatsdotcom/splatkit.org/discussions"><img alt="Join the community on GitHub" src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000&logoWidth=20"></a>
 
 </div>
