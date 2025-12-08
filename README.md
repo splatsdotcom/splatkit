@@ -1,7 +1,7 @@
 <div align="center">
   <a href="http://splatkit.org/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://www.splats.com/splatkit_darkmode.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.splats.com/Splatkitorg.png">
       <img alt="Splatkit.org logo" src="https://www.splats.com/splatkit_darkmode.png" height="128">
     </picture>
   </a>
