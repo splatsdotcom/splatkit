@@ -1,0 +1,39 @@
+schema_version = "1.0.0"
+
+id = "splats"
+version = "1.0.0"
+name = "Splats"
+tagline = "Render multi-frame sequences from multiple camera positions"
+maintainer = "Splats"
+type = "add-on"
+
+website = "https://github.com/splatsdotcom"
+
+tags = ["Render", "Camera"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# Optional: bundle 3rd party Python modules.
+# Uncomment and add numpy wheel paths when ready to bundle
+# wheels = [
+#   "./wheels/numpy-*.whl",
+# ]
+
+# Optional: add-ons can list which resources they will require
+# This add-on does not require network access, but uses files for import/export
+[permissions]
+files = "Import/export PLY point clouds and render output files"
+
+# Build settings to exclude macOS metadata
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".git/",
+  "*.zip",
+  "__MACOSX/",
+  ".DS_Store",
+]
