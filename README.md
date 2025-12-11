@@ -13,7 +13,7 @@
   <a href="https://github.com/splatsdotcom/splatkit.org/discussions"><img alt="Join the community on GitHub" src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000&logoWidth=20"></a>
 </div>
 
-
+> **Coming soon** - Links will be updated on the week of Dec 15th
 
 ## Getting Started
 Splatkit enables you to create and share dynamic gaussian splats by providing a powerful and easy to use toolset that leverages the latest techniques from the research community.
