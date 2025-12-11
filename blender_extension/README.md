@@ -1,6 +1,6 @@
 # Splats - Multi-Frame Gaussian Capture
 
-The Blender extension used by **splatkit** to generate Gaussian Splats from Blender scenes. This extension renders multi-frame sequences from multiple camera positions arranged on a sphere, creating the training data needed for 3D Gaussian Splatting.
+The Blender extension used by **splatkit** to generate Gaussian Splats from Blender scenes. This extension renders multi-frame sequences from multiple camera positions arranged on a sphere, creating the training data needed for Dynamic Gaussian Splatting.
 
 ## Overview
 
@@ -10,7 +10,7 @@ This extension is the core component of the splatkit workflow, enabling you to c
 
 ### Multi-Camera Rendering
 - **Fibonacci Sphere Distribution**: Automatically positions cameras evenly around your scene using mathematically optimal Fibonacci sphere distribution
-- **Configurable Camera Count**: Set anywhere from 1 to 100 camera positions (default: 60)
+- **Configurable Camera Count**: Set anywhere from 1 to 100 camera positions (default: 24)
 - **Automatic Sphere Generation**: One-click creation of camera sphere based on scene bounds or selected objects
 - **Radius Variation**: Optional random depth variation (0.8-1.0x) or fixed radius for consistent camera distances
 
@@ -48,12 +48,11 @@ This extension is the core component of the splatkit workflow, enabling you to c
 ## Installation
 
 ### As Extension (Blender 4.2+)
-1. Build the extension using `blender --command extension build` (see Building section below)
-2. Install from the Extensions platform, or
-3. Install from disk: **Edit > Preferences > Extensions > Install from Disk**
+1. Install from disk: **Edit > Preferences > Extensions > Install from Disk**
+2. Installation from the Extensions platform is coming soon,
 
 ### Legacy Installation (Blender < 4.2)
-Use the "Install legacy Add-on" button in User Preferences.
+Use the "Install legacy Add-on" button in User Preferences, using the `splats.py` file.
 
 ## Usage
 
@@ -124,28 +123,12 @@ output_folder/
 
 ## Building the Extension
 
-### Method 1: Using Blender Command (Recommended)
-
-To build the extension package:
-
-```bash
-blender --command extension build
-```
-
-This will create a `.zip` file in the current directory that can be installed or uploaded to the Extensions platform.
-
-To validate the manifest before building:
-
-```bash
-blender --command extension validate
-```
-
-### Method 2: Manual ZIP Creation (Workaround)
+### Manual ZIP Creation
 
 If the Blender command-line tool has Python initialization issues, you can manually create the extension zip:
 
 ```bash
-zip -r splats-1.0.0.zip __init__.py blender_manifest.toml LICENSE README.md DESCRIPTION.md -x "*.pyc" "__pycache__/*" ".DS_Store" "__MACOSX/*" "*.zip"
+zip -r splats-1.0.0.zip __init__.py blender_manifest.toml README.md DESCRIPTION.md -x "*.pyc" "__pycache__/*" ".DS_Store" "__MACOSX/*" "*.zip"
 ```
 
 **Note**: Make sure to exclude `__MACOSX/` and `.DS_Store` files to avoid validation errors.

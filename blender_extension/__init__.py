@@ -1488,7 +1488,7 @@ class MultiCamProperties(PropertyGroup):
     num_cameras: IntProperty(
         name="Number of Cameras",
         description="Number of camera positions on sphere",
-        default=60,
+        default=24,
         min=1,
         max=100
     )
