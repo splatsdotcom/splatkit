@@ -6,6 +6,18 @@ Author: Splats
 GitHub: https://github.com/splatsdotcom
 """
 
+bl_info = {
+    "name": "Splats",
+    "author": "Splats",
+    "version": (1, 0, 0),
+    "blender": (4, 2, 0),
+    "location": "View3D > Sidebar > Multi-Cam",
+    "description": "Render multi-frame sequences from multiple camera positions",
+    "category": "Render",
+    "doc_url": "https://github.com/splatsdotcom",
+    "tracker_url": "https://github.com/splatsdotcom",
+}
+
 import bpy
 import math
 import os
