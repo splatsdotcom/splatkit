@@ -32,7 +32,7 @@ Use the "Install legacy Add-on" button in User Preferences, using the `splats.py
    - Click "Use This Radius" to lock in your preferred radius for rendering
 
 3. **Configure Render Settings**
-   - Set the number of cameras (default: 60)
+   - Set the number of cameras (default: 24)
    - Specify start and end frame numbers
    - Choose output folder and folder name
 
