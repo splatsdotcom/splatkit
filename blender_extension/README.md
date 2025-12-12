@@ -8,13 +8,20 @@ This extension is the core component of the splatkit workflow, enabling you to c
 
 ## Installation
 
-### As Extension (Blender 4.2+)
-1. Download Extension here: https://drive.google.com/file/d/1YDTYruVlezDdC1zc-Yei-UCfoRB5gPHo/view?usp=drive_link
-2. Install from disk: **Edit > Preferences > Extensions > Install from Disk**
-3. Installation from the Extensions platform is coming soon,
+### Option 1: Install from Blender Extensions (recommended)
 
-### Legacy Installation (Blender < 4.2)
-Use the "Install legacy Add-on" button in User Preferences, using the `splats.py` file.
+1. Open **Edit → Preferences → Extensions**.
+2. Go to **Get Extensions** (online catalog) and search `splats`.
+3. Click **Install**, then enable it under your installed extensions (if needed).
+
+If splats doesn't appear in the catalog search, use Install from Disk below.
+
+### Option 2: Install from Disk (ZIP)
+
+1. Download the extension ZIP:
+   https://drive.google.com/file/d/1YDTYruVlezDdC1zc-Yei-UCfoRB5gPHo/view?usp=drive_link
+2. In Blender: **Edit → Preferences → Extensions**.
+3. Use the top-right menu → **Install from Disk** and select the ZIP.
 
 ## Usage
 
