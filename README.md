@@ -16,7 +16,7 @@
 > **Coming soon** - Links will be updated on the week of Dec 15th
 
 ## Getting Started
-Splatkit enables you to create and share dynamic gaussian splats by providing a powerful and easy to use toolset that leverages the latest techniques from the research community.
+Splatkit enables the creation and sharing of dynamic gaussian splats by providing a powerful and easy-to-use toolset. Splatkit leverages the latest techniques from the research community.
 * Visit our [Learn Splatkit](http://splatkit.org/learn) course to get started with Splatkit.
 * Visit the [Splatkit Showcase](http://splatkit.org/showcase) to see what others have built with Splatkit
 
@@ -26,5 +26,17 @@ Visit [https://splatkit.org/docs](https://splatkit.org/docs) to view the full do
 ## Community
 The Splatkit community can be found on GitHub Discussions where you can ask questions, voice ideas, and share your projects with other people.
   
-To chat with other community members you can join the [Splatkit Discord server](https://discord.gg/zaVkxwnA2b).
+To chat with other community members you can also join the [Splatkit Discord server](https://discord.gg/zaVkxwnA2b).
 
+## Projects
+Splatkit is built on multiple projects from our community. The currently tracked projects are:
+- [DGS](https://github.com/splatsdotcom/DGS)
+  - The encoder/decoder for the core file format, `.dgs`.
+  - Written in C, with python bindings.
+  - `pip install dgs-py` (`v1.0.0`).
+- [DGS-JS](https://github.com/splatsdotcom/DGS-JS)
+  - Javascript bindings for `DGS`, as well as a web-based renderer for `.dgs` files.
+  - `npm install dgs-js` (`v1.0.5`).
+- [DDGS](https://github.com/splatsdotcom/DDGS)
+  - Coming soon.
+  
