@@ -33,7 +33,7 @@ Splatkit is built on multiple projects from our community. The currently tracked
 - [DGS](https://github.com/splatsdotcom/DGS)
   - The encoder/decoder for the core file format, `.dgs`.
   - Written in C, with python bindings.
-  - `pip install dgs-py` (`v1.0.0`).
+  - `pip install dgs-py` (`v1.0.1`).
 - [DGS-JS](https://github.com/splatsdotcom/DGS-JS)
   - Javascript bindings for `DGS`, as well as a web-based renderer for `.dgs` files.
   - `npm install dgs-js` (`v1.0.5`).
