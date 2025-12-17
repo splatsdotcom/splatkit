@@ -1345,12 +1345,12 @@ class RENDER_OT_render_all(Operator):
 # ============================================================================
 
 class RENDER_PT_multi_camera(Panel):
-    """Multi-Camera Render Panel"""
-    bl_label = "Multi-Camera Render"
+    """Splatkit Capture Panel"""
+    bl_label = "Splatkit Capture"
     bl_idname = "RENDER_PT_multi_camera"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Multi-Cam'
+    bl_category = 'Splatkit'
 
     def draw(self, context):
         layout = self.layout
@@ -1448,7 +1448,7 @@ class RENDER_PT_multi_camera(Panel):
             row = layout.row()
             row.enabled = not props.preview_enabled
             row.operator("render.render_all_cameras",
-                         text="▶ RENDER ALL CAMERAS",
+                         text="▶ Capture Splat Data",
                          icon='RENDER_ANIMATION')
             if props.preview_enabled:
                 layout.label(text="Disable preview to render", icon='INFO')

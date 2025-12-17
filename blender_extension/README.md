@@ -28,7 +28,7 @@ If splats doesn't appear in the catalog search, use Install from Disk below.
 ### Quick Start
 
 1. **Create Camera Sphere**
-   - Open the "Multi-Cam" panel in the 3D Viewport sidebar (press `N` if sidebar is hidden)
+   - Open the "Splatkit" panel in the 3D Viewport sidebar (press `N` if sidebar is hidden)
    - Click "Create Auto Sphere" to automatically generate a camera sphere based on your scene bounds
    - Or select a mesh object and click "Create Auto Sphere" to center the sphere on that object
 
@@ -44,7 +44,7 @@ If splats doesn't appear in the catalog search, use Install from Disk below.
    - Choose output folder and folder name
 
 4. **Render**
-   - Click "▶ RENDER ALL CAMERAS" to start the rendering process
+   - Click "▶ Capture Splat Data" to start the rendering process
    - Monitor progress in the panel with real-time ETA updates
 
 5. **Access Output**
