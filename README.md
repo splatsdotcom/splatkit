@@ -36,7 +36,7 @@ Splatkit is built on multiple projects from our community. The currently tracked
   - `pip install dgs-py` (`v1.1.1`).
 - [DGS-JS](https://github.com/splatsdotcom/DGS-JS)
   - Javascript bindings for `DGS`, as well as a web-based renderer for `.dgs` files.
-  - `npm install dgs-js` (`v1.1.1`).
+  - `npm install dgs-js` (`v1.1.2`).
 - [DDGS](https://github.com/splatsdotcom/DDGS)
   - The differentiable renderer for training `.dgs` files.
   - Written in CUDA and C++, integrated with PyTorch.
